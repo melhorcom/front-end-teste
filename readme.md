@@ -32,4 +32,5 @@ O frontend deve validar os campos à medida que o usuário preenche o formulári
 
 ### Outros testes
 Teste Back-End Dev (https://github.com/melhorcom/back-end-teste)
+
 Teste Full-Stack Dev (https://github.com/melhorcom/full-stack-teste)
