@@ -1,4 +1,4 @@
-# Teste de Full-Stack / Back-End / Front-End (NodeJS / Java)
+# Teste de Front-End (ReactJS)
 ### Proposta
 Uma empresa vai lançar um novo app para venda de celulares e com isso gostaríamos que você construísse uma API para gerenciar o cadastro de novos celulares.
 
