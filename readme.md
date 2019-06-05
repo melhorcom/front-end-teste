@@ -39,8 +39,12 @@ O frontend deve validar os campos à medida que o usuário preenche o formulári
 05. Com o servidor funcionando, é necessário adicionar a URL de conexão(em forma de nodejs) no arquivo DB.js
 06. Com a url no DB.js, digitar npm start no cmd e se tudo der certo, uma mensagem de "Database is connected" irá aparecer.
 
+### API - A chamada deve ser feita para 
+http://localhost:4000/business para listar
+http://localhost:4000/business/delete/:id para deletar
+http://localhost:4000/business/add passando um objeto com os determinados estados para adicionar
+http://localhost:4000/business/edit/:id para editar
 
 ### Outros testes
 Teste Back-End Dev (https://github.com/melhorcom/back-end-teste)
-
 Teste Full-Stack Dev (https://github.com/melhorcom/full-stack-teste)
