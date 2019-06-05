@@ -20,7 +20,7 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS com 
 ### Operações
 Deve ser possível **cadastrar, pesquisar, editar, excluir e listar** todos os celulares. 
 
-### Busca
+### Busca (pode ser sem a API / Um input básico)
 Deve ser possível buscar celulares por **qualquer combinação** de seus atributos. Por exemplo, buscar um celular por modelo, ou por marca e cor.
 
 ### Validação
