@@ -3,7 +3,7 @@
 Uma empresa vai lançar um novo app para venda de celulares e com isso gostaríamos que você construísse uma API para gerenciar o cadastro de novos celulares.
 
 ### Solução
-A solução consistirá em criar uma aplicação frontend usando ReactJS com a REST API na pasta "api".
+A solução consistirá em criar uma aplicação frontend usando ReactJS com a REST API na pasta "/api/".
 
 ### Descrição do modelo
 | Campo | Tipo | Descrição | Restrições |
@@ -26,9 +26,19 @@ Deve ser possível buscar celulares por **qualquer combinação** de seus atribu
 ### Validação
 O sistema deve validar todas as entradas, tanto no backend quanto no frontend.
 
-O backend deve retornar um resposta com o código HTTP adequado, de acordo com o resultado da validação, além de incluir uma mensagem para cada violação.
+O backend deve retorna uma resposta com os códigos HTTP adequado, de acordo com o resultado da validação, além de incluir uma mensagem para cada violação.
 
 O frontend deve validar os campos à medida que o usuário preenche o formulário, e exibir as mensagens de erro correspondentes.
+
+### Passos para a instalação do MongoDB
+
+01. Entrar na pasta /API/ e digitar npm i;
+02. Processo de configuração da database
+03. Aconselhamos utilizar o mongoDB Atlas para criar um servidor (grátis) para hospedar o seu banco de dados. (https://mongodb.com)
+04. A criação da conta é de forma rápida e depois é necessário apenas seguir o próprio passo a passo da mongoDB para ligar o servidor.
+05. Com o servidor funcionando, é necessário adicionar a URL de conexão(em forma de nodejs) no arquivo DB.js
+06. Com a url no DB.js, digitar npm start no cmd e se tudo der certo, uma mensagem de "Database is connected" irá aparecer.
+
 
 ### Outros testes
 Teste Back-End Dev (https://github.com/melhorcom/back-end-teste)
