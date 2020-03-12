@@ -13,7 +13,7 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 
 ### Descrição do modelo
 | Campo | Tipo | Descrição | Restrições |
-| ------ | ------ | ------ | ------ |
+|--|--|--|--|
 | model | Texto | Nome do modelo do celular | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco. |
 | price | Número real | Preço do celular | Número positivo |
 | brand | Texto | Nome da marca do celular | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco. |
