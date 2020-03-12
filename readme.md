@@ -22,6 +22,14 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 | color | Lista fixa | Cor do celular | Essa campo admite apenas os seguintes valores: BLACK, WHITE, GOLD, PINK. |
 | code | Texto | Código de identificação do celular | Alfanumérico de 8 caracteres. Não deve se repetir. |
 
+teste
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
 ### Requisitos funcionais
 - Deve ser possível **cadastrar, editar, excluir e listar** todos os celulares. 
 - O sistema deve validar todas as entradas no cadastro de celulares com mensagens de erro de acordo com a validação dos campos acima.
