@@ -32,6 +32,7 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 - O sistema deve validar todas as entradas no cadastro de celulares com mensagens de erro de acordo com a validação dos campos acima.
 - Será avaliado a capacidade de lógica dos dados e fidelidade ao protótipo.
 - Responsividade é um adicional.
+- **Para toda requisição é necessário enviar via Header o seu CPF { cpf : seu cpf }**
 
 ### Protótipo
 
@@ -41,8 +42,29 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 
 | Tipo   | Url   | Descrição                 |
 | ------ | ----- | ------------------------- |
-| GET    | teste | listar todos os celulares |
-| GET    | teste | listar um celular         |
-| DELETE | test  | para deletar              |
-| POST   | teste | Criar um novo celular     |
-| PATCH  | teste | Editar um celular         |
+| GET    | https://phones--melhorcom.repl.co/phone | Listar todos os celulares |
+| GET    | https://phones--melhorcom.repl.co/phone/:id | Listar um celular         |
+| DELETE | https://phones--melhorcom.repl.co/phone/:id  | Deletar              |
+| POST   | https://phones--melhorcom.repl.co/phone | Criar um novo celular     |
+| PATCH  | https://phones--melhorcom.repl.co/phone/:id | Editar um celular         |
+
+### Exemplo de criação/edição
+
+**Body:**
+
+    {
+	"model":"Galaxy 5",
+	"brand":"Sansung",
+	"price":"900",	
+	"date":"12/26/2019",
+	"endDate":"12/26/2022",
+	"color":"Black",
+	"code":"#12212"
+}
+
+**Header:**
+
+    cpf:04925787454
+
+
+
