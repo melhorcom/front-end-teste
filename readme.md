@@ -42,11 +42,13 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 
 | Tipo   | Url   | Descrição                 |
 | ------ | ----- | ------------------------- |
-| GET    | https://phones--melhorcom.repl.co/phone | Listar todos os celulares |
-| GET    | https://phones--melhorcom.repl.co/phone/:id | Listar um celular         |
-| DELETE | https://phones--melhorcom.repl.co/phone/:id  | Deletar              |
-| POST   | https://phones--melhorcom.repl.co/phone | Criar um novo celular     |
-| PATCH  | https://phones--melhorcom.repl.co/phone/:id | Editar um celular         |
+| GET    | ```https://phones--melhorcom.repl.co/phone``` | Listar todos os celulares |
+| GET    | ```https://phones--melhorcom.repl.co/phone/:id``` | Listar um celular         |
+| DELETE | ```https://phones--melhorcom.repl.co/phone/:id```  | Deletar              |
+| POST   | ```https://phones--melhorcom.repl.co/phone``` | Criar um novo celular     |
+| PATCH  | ```https://phones--melhorcom.repl.co/phone/:id``` | Editar um celular         |
+
+
 
 ### Exemplo de criação/edição
 
@@ -65,6 +67,3 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 **Header:**
 
     cpf:04925787454
-
-
-
