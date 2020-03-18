@@ -60,7 +60,7 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 	"price":"900",	
 	"date":"12/26/2019",
 	"endDate":"12/26/2022",
-	"color":"Black",
+	"color":"BLACK",
 	"code":"#12212"
 }
 
