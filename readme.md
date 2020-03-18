@@ -58,8 +58,8 @@ A solução consistirá em criar uma aplicação frontend usando ReactJS.
 	"model":"Galaxy 5",
 	"brand":"Sansung",
 	"price":"900",	
-	"date":"12/26/2019",
-	"endDate":"12/26/2022",
+	"date":"26/04/2019",
+	"endDate":"12/12/2022",
 	"color":"BLACK",
 	"code":"#12212"
 }
